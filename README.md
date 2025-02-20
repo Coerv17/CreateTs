@@ -43,6 +43,7 @@ depois ir no package.json e modificar o scripts
 
 ```jsx
 "dev":"tsx watch src/index.ts" --passar o caminho do codigo
+"dev": "tsx watch --env-file .env src/index.ts" -- passar tambem isso para rodar o .env sem precisar do dotenv, precisa reneicar o terminal para funcionar
 ```
 
 finalizando
